@@ -13,6 +13,7 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 - Bias-Variance Tradeoff
 - Overfitting and Underfitting
 - Model Evaluation basics
+- Classification vs Regression vs Clustering examples
 
 ### Week 2 - Python for Data Science
 - **Numpy & Pandas**: Array operations, data manipulation, file handling
@@ -65,8 +66,17 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm statsmodels
 ```
 
+## Datasets
+
+Week 1 notebooks use sklearn built-in datasets (no download needed):
+- `load_iris()` - Classification
+- `load_breast_cancer()` - Binary Classification  
+- `fetch_california_housing()` - Regression
+- `load_digits()` - Multi-class Classification
+
+Other weeks use local CSV files. You can substitute with any similar dataset.
+
 ## Notes
 
 - Most algorithms have two implementations: from scratch (to understand the math) and using sklearn (for practical use)
-- Datasets used are either from sklearn or stored locally
 - Notebooks are meant to be run in Jupyter
