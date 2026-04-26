@@ -14,6 +14,7 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 - Overfitting and Underfitting
 - Model Evaluation basics
 - Classification vs Regression vs Clustering examples
+- Data Preprocessing (missing values, encoding, scaling, pipelines)
 
 ### Week 2 - Python for Data Science
 - **Numpy & Pandas**: Array operations, data manipulation, file handling
