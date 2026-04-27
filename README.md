@@ -64,7 +64,12 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 ## Setup
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm statsmodels
+pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm statsmodels jupyter
 ```
 
 ## Datasets
