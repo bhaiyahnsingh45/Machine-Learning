@@ -17,7 +17,8 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 - Data Preprocessing (missing values, encoding, scaling, pipelines)
 
 ### Week 2 - Python for Data Science
-- **Numpy & Pandas**: Array operations, data manipulation, file handling
+- **Numpy**: Arrays, slicing, broadcasting, mathematical operations
+- **Pandas**: Series, DataFrame, data manipulation, file handling
 - **Matplotlib**: Line plots, bar charts, scatter plots, histograms, box plots
 - **Seaborn**: Statistical visualizations, pair plots, heatmaps
 
@@ -25,23 +26,29 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 - Linear Regression from scratch (gradient descent implementation)
 - Linear Regression with scikit-learn
 - Gradient Descent variants (Batch, Stochastic, Mini-batch)
-- Feature Scaling and Feature Selection
+- Feature Scaling (Standardization, Normalization)
+- Feature Selection
 - Encoding Techniques (Label, One-Hot)
 - Ridge and Lasso Regression (L1/L2 Regularization)
 - OLS assumptions and QQ plots
+- Power Transformation
 
 ### Week 4 - Classification
 - Logistic Regression (from scratch + sklearn)
-- Decision Trees (from scratch + sklearn)
+- Sigmoid Function
+- Decision Trees (from scratch + sklearn) - Classification and Regression
 - Random Forest
-- Classification metrics (Precision, Recall, F1, ROC-AUC)
+- Classification metrics (Precision, Recall, F1, ROC-AUC, Confusion Matrix)
 - Post Pruning techniques
 
 ### Week 5 - Ensemble Methods & Unsupervised Learning
-- Gradient Boosting, AdaBoost, XGBoost, LightGBM
+- Gradient Boosting
+- AdaBoost
+- XGBoost
+- LightGBM
 - K-Means Clustering (from scratch + sklearn)
 - Hierarchical Clustering
-- PCA (Dimensionality Reduction)
+- PCA (Principal Component Analysis)
 - Cross Validation
 - Missing Value Imputation
 
@@ -50,15 +57,17 @@ Notes and implementations from my ML training. Covers core algorithms from basic
 
 ### Week 7 - Advanced Topics
 - K-Nearest Neighbors (KNN)
-- Handling Imbalanced Datasets (SMOTE, undersampling)
-- Anomaly Detection (Isolation Forest, PyCaret)
+- Handling Imbalanced Datasets (SMOTE, undersampling, class weights)
+- Anomaly Detection (Isolation Forest, LOF, One-Class SVM)
+- Anomaly Detection using PyCaret
 
 ### Week 8 - Time Series
 - Stationarity and ADF test
 - ACF & PACF plots
-- Time Series Decomposition
-- Smoothing techniques
-- AR, ARMA, ARIMA, SARIMA models
+- Time Series Decomposition (Trend, Seasonality, Residual)
+- Smoothing techniques (Moving Average, Exponential Smoothing)
+- AR Model
+- ARMA, ARIMA, SARIMA models
 - Rolling Forecast
 
 ## Setup
@@ -86,3 +95,4 @@ Other weeks use local CSV files. You can substitute with any similar dataset.
 
 - Most algorithms have two implementations: from scratch (to understand the math) and using sklearn (for practical use)
 - Notebooks are meant to be run in Jupyter
+- Each notebook includes explanatory introduction covering theory and key concepts
